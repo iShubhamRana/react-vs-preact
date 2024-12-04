@@ -1,0 +1,31 @@
+{
+  "name": "preact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config=webpack.config.js --stats",
+    "bundle-report": "webpack-bundle-analyzer --port 4200 dist/stats.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "preact": "^10.25.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-import": "^1.13.8",
+    "html-webpack-plugin": "^5.6.3",
+    "plugin-transform-react-jsx": "^0.0.1-security",
+    "webpack": "^5.96.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
